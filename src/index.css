@@ -18,3 +18,13 @@
   margin: 0;
   scroll-behavior: smooth;
 }
+
+html {
+  scroll-padding-top: 62.8px;
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    scroll-padding-top: 68.8px;
+  }
+}
